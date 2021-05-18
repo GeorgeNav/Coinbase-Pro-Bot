@@ -1,0 +1,29 @@
+{
+  "name": "cb_pro_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeNav/Coinbase-Pro-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeNav/Coinbase-Pro-Bot/issues"
+  },
+  "homepage": "https://github.com/GeorgeNav/Coinbase-Pro-Bot#readme",
+  "dependencies": {
+    "coinbase-pro-node": "^3.0.4",
+    "keypress": "^0.2.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
